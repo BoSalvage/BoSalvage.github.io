@@ -7,8 +7,8 @@
 }
 
 .menu {
-	position: absolute;
-	top: 0;
+	position: fixed;
+	top: -80px;
 	left: 0;
 	right: 0;
 	height: 80px;
@@ -18,6 +18,7 @@
 	justify-content: space-between;
 	padding: 0 20px;
 	box-sizing: border-box;
+	transition: top 0.3s;
 }
 
 .menu a {
