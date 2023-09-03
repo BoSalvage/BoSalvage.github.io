@@ -1,0 +1,28 @@
+
+.background {
+	background-image: url("path/to/background/image.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	margin-right: 20px;
+}
