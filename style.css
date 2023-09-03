@@ -1,6 +1,6 @@
 
 .background {
-	background-image: url("path/to/background/image.jpg");
+	background-image: url("./images/nen.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
